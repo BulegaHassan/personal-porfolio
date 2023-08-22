@@ -2,7 +2,7 @@ import ProjectCard from './ProjectCard';
 import { projects } from '../data';
 const Projects = () => {
   return (
-    <section className='py-20' id='projects'>
+    <section className='py-10' id='projects'>
       <h2 className='text-center text-4xl font-medium tracking-wider capitalize'>
         Projects
       </h2>
