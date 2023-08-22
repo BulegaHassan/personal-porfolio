@@ -1,5 +1,5 @@
 import heroImg from '../assets/hero.svg';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare, FaFacebookSquare } from 'react-icons/fa';
 const Hero = () => {
   return (
     <section className='bg-emerald-100 py-24  '>
@@ -10,11 +10,11 @@ const Hero = () => {
             Seasoned Graphics Designer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            turning ideas into interactive reality
+            turning ideas into exciting and interactive reality
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='#'>
-              <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+              <FaFacebookSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
             <a href='#'>
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
