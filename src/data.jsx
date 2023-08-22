@@ -6,6 +6,8 @@ export const links = [
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#projects", text: "projects" },
+  { id: nanoid(), href: "#testimonials", text: "testimonials" },
+  { id: nanoid(), href: "#contact", text: "contact" },
 ];
 
 export const skills = [
@@ -33,25 +35,67 @@ export const projects = [
   {
     id: nanoid(),
     img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
     title: "first project",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
     id: nanoid(),
     img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
+
     title: "second project",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
     id: nanoid(),
     img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
+
     title: "third project",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Forth project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+
+    title: "Fifth project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+
+    title: "sixth project",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+];
+export const testimonials = [
+  {
+    id: nanoid(),
+    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+    name: "Maria Sammy",
+    role: "Hotel Manager",
+    comment:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos rend kdcnci ijvos jvodjd kncno hdkc jlc",
+  },
+  {
+    id: nanoid(),
+    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg",
+    name: "Racheal Sanders",
+    role: "Chief Cook",
+    comment:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos rend kdcnci ijvos jvodjd kncno hdkc jlc",
+  },
+  {
+    id: nanoid(),
+    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg",
+    name: "John Doe",
+    role: "Cafe chains Manager",
+    comment:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos rend kdcnci ijvos jvodjd kncno hdkc jlc",
   },
 ];
