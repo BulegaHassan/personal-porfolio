@@ -1,4 +1,4 @@
-import aboutSvg from '../assets/about.svg';
+import aboutSvg from '../assets/about_dev.svg';
 const About = () => {
   return (
     <section class='bg-white py-20' id='about'>
