@@ -1,6 +1,18 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
-
+import { FaHtml5, FaJs, FaReact, FaCss3,FaBootstrap, } from "react-icons/fa";
+import {TbBrandNextjs} from 'react-icons/tb'
+import {
+  SiTailwindcss,
+  SiMongodb,
+  SiMongoose,
+  SiGit,
+  SiGithub,
+  SiNodedotjs,
+  SiExpress,
+  SiTypescript,
+  SiGithubactions,
+  SiCypress,
+} from "react-icons/si";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
@@ -27,6 +39,66 @@ export const skills = [
     id: nanoid(),
     title: "React",
     icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "HTML&CSS",
+    icon: <FaCss3 className='h-16 w-16 text-emerald-500' />,
+    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+  },
+  {
+    id: nanoid(),
+    title: "HTML&CSS",
+    icon: <SiTailwindcss className='h-16 w-16 text-emerald-500' />,
+    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+  },
+  {
+    id: nanoid(),
+    title: "Javascript",
+    icon: <TbBrandNextjs className='h-16 w-16 text-emerald-500' />,
+    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+  },
+  {
+    id: nanoid(),
+    title: "React",
+    icon: <SiNodedotjs className='h-16 w-16 text-emerald-500' />,
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "HTML&CSS",
+    icon: <SiExpress className='h-16 w-16 text-emerald-500' />,
+    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+  },
+  {
+    id: nanoid(),
+    title: "Javascript",
+    icon: <SiMongodb className='h-16 w-16 text-emerald-500' />,
+    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+  },
+  {
+    id: nanoid(),
+    title: "React",
+    icon: <SiMongoose className='h-16 w-16 text-emerald-500' />,
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "HTML&CSS",
+    icon: <SiTypescript className='h-16 w-16 text-emerald-500' />,
+    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+  },
+  {
+    id: nanoid(),
+    title: "Javascript",
+    icon: <SiGit className='h-16 w-16 text-emerald-500' />,
+    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+  },
+  {
+    id: nanoid(),
+    title: "React",
+    icon: <SiGithub className='h-16 w-16 text-emerald-500' />,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
 ];
