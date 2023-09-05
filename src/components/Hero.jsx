@@ -1,12 +1,12 @@
 import heroImg from '../assets/hero_dev.svg';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare, FaFacebookSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 const Hero = () => {
   return (
     <section className='bg-emerald-100 py-24 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-100'>
       <div className=' mx-auto max-w-7xl  px-8  grid  md:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-7xl font-bold tracking-wider'>
-            I'm Hassan Bulega
+            I&lsquo;m Hassan Bulega
           </h1>
           <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide dark:text-white'>
             Full Stack Engineer

@@ -97,8 +97,20 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: "React",
+    title: "Github",
     icon: <SiGithub className='h-16 w-16 text-emerald-500' />,
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Github Actions",
+    icon: <SiGithubactions className='h-16 w-16 text-emerald-500' />,
+    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+  },
+  {
+    id: nanoid(),
+    title: "Cypress",
+    icon: <SiCypress className='h-16 w-16 text-emerald-500' />,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
 ];
@@ -144,6 +156,7 @@ export const projects = [
     title: "sixth project",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
+  
 ];
 export const testimonials = [
   {

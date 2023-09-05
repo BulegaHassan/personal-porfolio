@@ -2,10 +2,10 @@ import aboutSvg from '../assets/about_dev.svg';
 const About = () => {
   return (
     <section
-      class='bg-white py-20 dark:bg-slate-800 dark:text-white dark:border-l-8 dark:border-emerald-100'
+      className='bg-white py-20 dark:bg-slate-800 dark:text-white dark:border-l-8 dark:border-emerald-100'
       id='about'
     >
-      <div class='mx-auto max-w-7xl  px-8 grid  md:grid-cols-2 items-center gap-16'>
+      <div className='mx-auto max-w-7xl  px-8 grid  md:grid-cols-2 items-center gap-16'>
         <img src={aboutSvg} className='w-full h-64' />
         <article>
           <h2 className='text-4xl font-medium tracking-wider capitalize underline decoration-emerald-300 dark:decoration-dotted'>
