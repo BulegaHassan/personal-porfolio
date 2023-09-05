@@ -16,7 +16,7 @@ const TestimonialCard = ({url,name,role,comment}) => {
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 96 960 960'
-          className='inline-block w-6 text-emerald-950'
+          className='inline-block w-6 text-emerald-900 dark:text-emerald-100'
         >
           <path
             fill='currentColor'

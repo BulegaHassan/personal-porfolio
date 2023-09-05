@@ -2,8 +2,11 @@ import contactImg from "../assets/message.svg";
 
 const Contact = () => {
   return (
-    <section className='bg-emerald-100 py-24' id="contact">
-      <h2 className='text-3xl text-slate-700 capitalize tracking-wide text-center font-bold'>
+    <section
+      className='bg-emerald-100 py-24 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-100'
+      id='contact'
+    >
+      <h2 className='text-3xl text-slate-700 capitalize underline decoration-emerald-300 tracking-wide dark:decoration-dotted text-center font-bold dark:text-white'>
         Talk to me
       </h2>
       <div className=' mx-auto max-w-7xl  px-8  grid  md:grid-cols-2 items-center gap-8'>
@@ -71,7 +74,7 @@ const Contact = () => {
             </div>
             <button
               type='submit'
-              className='text-white bg-emerald-700 hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+              className='text-white bg-emerald-700 hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-emerald-500 dark:hover:bg-emerald-700 dark:focus:ring-emerald-800'
             >
               Submit
             </button>
