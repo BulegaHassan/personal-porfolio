@@ -184,3 +184,53 @@ export const testimonials = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos rend kdcnci ijvos jvodjd kncno hdkc jlc",
   },
 ];
+
+ export const experience = {
+    works: [
+      {
+        title: "FULL-STACK DEVELOPER",
+        period: "Sept. 2022 - Present",
+        company: "Smarter Labs",
+        description: [
+          "Collaborated with other developers to build a react based UI for the online smartlabs. The UI used context API and later changed to use Redux.",
+          "Collaborated with other developers to build the smart-labs API with node, express and mongo DB",
+          "Deploying using firebase(frontend) and fly.io(backend) plus CI/CD.",
+          "Maintaining the codebase, debugging and adding new features"
+        ],
+      },
+      {
+        title: " CEO & FULL-STACK DEVELOPER",
+        period: "July. 2021 - Present",
+        company: "Hasgotech",
+        description: [
+          "A self company where I make web apps per client request.",
+          "Use of MERN stack with nextjs-13,bootstrap,tailwindcss and other technologies to build both frontend and full stack apps",
+          "Hosting of client projects using c-panel-hosting, firebase, vercel, fly.io and render",          
+        ],
+      },
+    ],
+    academic: [
+      {
+        course: "BSc Physics & Mathematics with Education",
+        date: "2015-2019",
+        institution: "Makerere University",
+      },
+      
+      {
+        course: "Uganda Advanced Certificate of Education",
+        date: "2012-2013",
+        institution: "Gayaza Cambridge College",
+      },
+      {
+        course: "Uganda  Certificate of Education",
+        date: "2008-2011",
+        institution: "Gayaza Cambridge College",
+      },
+      {
+        course: "CCNA, Huaawei Cloud and Security",
+        date: "2019-2020",
+        institution: "Self Taught and Online Resources"
+      }
+
+    ]
+  }
