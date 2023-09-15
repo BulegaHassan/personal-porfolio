@@ -1,5 +1,5 @@
-import { links } from '../data';
-import Switcher from './Switcher';
+import { links } from "../data";
+import Switcher from "./Switcher";
 const Navbar = () => {
   return (
     <nav className='bg-emerald-100 sticky top-0 z-10  dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-100'>

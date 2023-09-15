@@ -1,4 +1,4 @@
-const TestimonialCard = ({url,name,role,comment}) => {
+const TestimonialCard = ({ url, name, role, comment }) => {
   return (
     <div className='mb-12 md:mb-0 '>
       <div className='mb-6 flex justify-center'>
@@ -88,5 +88,5 @@ const TestimonialCard = ({url,name,role,comment}) => {
       </ul>
     </div>
   );
-}
-export default TestimonialCard
+};
+export default TestimonialCard;

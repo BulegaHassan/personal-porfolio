@@ -1,4 +1,4 @@
-import { testimonials } from "../data"
+import { testimonials } from "../data";
 import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = () => {
@@ -17,5 +17,5 @@ const Testimonials = () => {
       </div>
     </section>
   );
-}
-export default Testimonials
+};
+export default Testimonials;

@@ -1,5 +1,5 @@
-import heroImg from '../assets/hero_dev.svg';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import heroImg from "../assets/hero_dev.svg";
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className='bg-emerald-100 py-24 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-100'>

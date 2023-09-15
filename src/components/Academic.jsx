@@ -1,4 +1,4 @@
-import educImg from '../assets/education.svg'
+import educImg from "../assets/education.svg";
 export const Academic = ({ academic }) => {
   return (
     <section
@@ -6,16 +6,20 @@ export const Academic = ({ academic }) => {
       id='education'
     >
       <div className='mx-auto max-w-7xl  px-8 grid  md:grid-cols-2 items-center gap-16'>
-        <img src={educImg} alt='man reading math' className='w-full h-64 hover:animate-pulse' />
+        <img
+          src={educImg}
+          alt='man reading math'
+          className='w-full h-64 hover:animate-pulse'
+        />
         <article>
-        <h2 className='text-2xl font-medium tracking-wider capitalize mb-2 '>
-          Education
-        </h2>
-        <div className='education__container grid gap-3'>
-          {academic.map((academy) => (
-            <Academy key={academy.institution} {...academy} />
-          ))}
-        </div>
+          <h2 className='text-2xl font-medium tracking-wider capitalize mb-2 '>
+            Education
+          </h2>
+          <div className='education__container grid gap-3'>
+            {academic.map((academy) => (
+              <Academy key={academy.institution} {...academy} />
+            ))}
+          </div>
         </article>
       </div>
     </section>

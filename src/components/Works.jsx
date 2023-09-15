@@ -1,4 +1,4 @@
-import workImg from '../assets/working.svg'
+import workImg from "../assets/working.svg";
 export const Works = ({ works }) => {
   return (
     <section
@@ -39,8 +39,8 @@ const Work = ({ title, period, company, description }) => {
           {period} | {company}
         </span>
         {description.map((desc, i) => (
-          <ul>
-            <li key={i} className='text-slate-500 dark:text-slate-300 list-disc'>
+          <ul key={i}>
+            <li className='text-slate-500 dark:text-slate-300 list-disc'>
               {desc}
             </li>
           </ul>
