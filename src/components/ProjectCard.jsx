@@ -12,7 +12,9 @@ const ProjectCard = ({ url, img, github, title, text }) => {
         <h2 className='text-xl tracking-wide font-medium text-center '>
           {title}
         </h2>
-        <p className='mt-4 text-slate-300 leading-loose text-center'>{text}</p>
+        <p className='mt-4 text-slate-500 dark:text-slate-300 leading-loose text-center'>
+          {text}
+        </p>
       </div>
     </article>
   );
