@@ -11,7 +11,7 @@ const Projects = () => {
         Projects
       </h2>
       <div className='mx-auto max-w-7xl  px-8 py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8'>
-        {projects.map((project) => {
+        {projects?.map((project) => {
           return <ProjectCard key={project.id} {...project} />;
         })}
       </div>

@@ -1,6 +1,6 @@
 import heroImg from "../assets/hero_dev.svg";
 import { FaGithub, FaLinkedin, FaTwitter,FaStackOverflow, } from "react-icons/fa";
-import {BiLogoUpwork} from 'react-icons/bi'
+import {BiLogoUpwork} from "react-icons/bi";
 const Hero = () => {
   return (
     <section

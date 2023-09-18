@@ -1,4 +1,3 @@
-import aboutSvg from "../assets/about_dev.svg";
 const About = () => {
   return (
     <section

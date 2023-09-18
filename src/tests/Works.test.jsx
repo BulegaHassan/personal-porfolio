@@ -1,6 +1,6 @@
 import { Works } from "../components/Works";
 import { render, screen } from "@testing-library/react";
-import { ExpectTypeOf, expect } from "vitest";
+import { expect } from "vitest";
 
 describe("Works", () => {
   it("renders an image and work experience correctly", () => {
@@ -27,8 +27,6 @@ describe("Works", () => {
         ],
       },
     ];
-    // check whether data is an array
-    expectTypeOf(workData).toBeArray();
 
     render(<Works works={workData} />);
     // Assert image presence

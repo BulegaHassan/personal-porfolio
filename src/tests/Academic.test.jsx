@@ -1,6 +1,6 @@
 import { Academic } from "../components/Academic";
 import { render, screen } from "@testing-library/react";
-import { ExpectTypeOf } from "vitest";
+import {expectTypeOf} from "vitest";
 
 describe("Academic", () => {
   it("renders an image and academic records correctly", () => {
