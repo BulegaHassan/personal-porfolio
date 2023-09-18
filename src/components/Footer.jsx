@@ -7,7 +7,7 @@ const Footer = () => {
         <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
           © 2023{" "}
           <a href='https://flowbite.com/' className='hover:underline'>
-            FullStack<span className='text-emerald-600'>Pro™</span>
+            FullStack<span className='text-emerald-600'>Dev™</span>
           </a>
           . All Rights Reserved.
         </span>
@@ -24,17 +24,26 @@ const Footer = () => {
           </li>
           <li className='pr-2'>
             <a href='#'>
-              <FaGithubSquare className='h-4 w-4 text-slate-500 hover:text-black duration-300' />
+              <FaGithubSquare
+                className='h-4 w-4 text-slate-500 hover:text-black duration-300 '
+                data-testid='github-icon'
+              />
             </a>
           </li>
           <li className='pr-2'>
             <a href='#'>
-              <FaLinkedin className='h-4 w-4 text-slate-500 hover:text-black duration-300' />
+              <FaLinkedin
+                className='h-4 w-4 text-slate-500 hover:text-black duration-300 '
+                data-testid='linkedin-icon'
+              />
             </a>
           </li>
           <li>
             <a href='#'>
-              <FaTwitterSquare className='h-4 w-4 text-slate-500 hover:text-black duration-300' />
+              <FaTwitterSquare
+                className='h-4 w-4 text-slate-500 hover:text-black duration-300 '
+                data-testid='twitter-icon'
+              />
             </a>
           </li>
         </ul>

@@ -4,11 +4,12 @@ export const Academic = ({ academic }) => {
     <section
       className='bg-white py-0 dark:bg-slate-800 dark:text-white dark:border-l-8 dark:border-emerald-100'
       id='education'
+      data-testid='academic'
     >
       <div className='mx-auto max-w-7xl  px-8 grid  md:grid-cols-2 items-center gap-16'>
         <img
           src={educImg}
-          alt='man reading math'
+          alt='man reading a math book'
           className='w-full h-64 hover:animate-pulse'
         />
         <article>

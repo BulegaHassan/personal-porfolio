@@ -5,6 +5,7 @@ const Projects = () => {
     <section
       className='py-10 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-400'
       id='projects'
+      data-testid='projects'
     >
       <h2 className='text-center text-4xl font-medium tracking-wider capitalize underline underline-offset-8 decoration-emerald-300 dark:decoration-dotted'>
         Projects

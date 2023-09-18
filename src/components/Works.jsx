@@ -1,14 +1,16 @@
-import workImg from "../assets/working.svg";
+import aboutSvg from "../assets/about_dev.svg";
+
 export const Works = ({ works }) => {
   return (
     <section
       className='bg-white py-10 dark:bg-slate-800 dark:text-white dark:border-l-8 dark:border-emerald-100'
       id='experience'
+      data-testid='works'
     >
       <div className='mx-auto max-w-7xl  px-8 grid  md:grid-cols-2 items-center gap-16'>
         <img
-          src={workImg}
-          alt='man past big screen with code'
+          src={aboutSvg}
+          alt='man sitted with laptop'
           className='w-full h-64 hover:animate-pulse'
         />
         <article>
