@@ -25,7 +25,6 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install -g npm
     - name: npm installation
       run: npm install
     - name: check styles
@@ -55,3 +54,16 @@ jobs:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+  
+  tag_release:
+    needs: [deploy]
+    if: ${{ github.event_name == 'push'}}
+    runs-on: ubuntu-latest 
+    steps:
+      - uses: actions/checkout@v3
+      - name: Bump version and push tag
+        uses: anothrNick/github-tag-action@1.67.0 
+        env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+         DEFAULT_BUMP : patch    
+         WITH_V: true    
