@@ -55,6 +55,7 @@ jobs:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
   tag_release:
+    permissions: write-all
     needs: [deploy]
     if: ${{ github.event_name == 'push'}}
     runs-on: ubuntu-latest
