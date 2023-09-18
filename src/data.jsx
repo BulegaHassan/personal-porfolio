@@ -198,7 +198,7 @@ export const experience = {
       ],
     },
     {
-      title: " CEO & FULL-STACK DEVELOPER",
+      title: "CEO AND FULL-STACK DEVELOPER",
       period: "July. 2021 - Present",
       company: "Hasgotech",
       description: [
