@@ -1,8 +1,24 @@
-# React + Vite
+[![codecov](https://codecov.io/gh/BulegaHassan/personal-porfolio/graph/badge.svg?token=BDGZIQ988V)](https://codecov.io/gh/BulegaHassan/personal-porfolio)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Personal Portfolio - React + Vite
+- Uses [tailwindcss](https://tailwindcss.com/) and [undraw](https://undraw.co/) for illustrations. Also has a dark mode
+- Form submission uses nodemailer + gmail + Oauth => [nodemailer-form-submission-repo](https://github.com/BulegaHassan) 
+- CI/CD with github actions. The workflow has lint,build, test. Plus deploy job and tag release
+- Hosted with [firebase](https://console.firebase.google.com/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started 
+- Install packages
+```bash
+   npm install
+```
+- Run the dev server
+```bash 
+   npm run dev
+```
+- Run tests
+```bash 
+   npm run test
+```
+#### For linting,fixing linting and test coverage, refer to scripts in the package.json file
+#### For firebase hosting with CI/CD follow this [guide](https://www.makeuseof.com/react-application-deploy-firebase-hosting-service-using-github-actions/)
