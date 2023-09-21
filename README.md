@@ -2,7 +2,7 @@
 
 ## Personal Portfolio - React + Vite
 - Uses [tailwindcss](https://tailwindcss.com/) and [undraw](https://undraw.co/) for illustrations. Also has a dark mode
-- Form submission uses nodemailer + gmail + Oauth => [nodemailer-form-submission-repo](https://github.com/BulegaHassan) 
+- Form submission uses nodemailer + gmail + Oauth => [nodemailer-form-submission-repo](https://github.com/BulegaHassan/nodemailer-contact-form) 
 - CI/CD with github actions. The workflow has lint,build, test. Plus deploy job and tag release
 - Hosted with [firebase](https://console.firebase.google.com/)
 
