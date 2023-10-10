@@ -3,7 +3,7 @@ import aboutSvg from "../assets/about_dev.svg";
 export const Works = ({ works }) => {
   return (
     <section
-      className='bg-white py-10 dark:bg-slate-800 dark:text-white dark:border-l-8 dark:border-emerald-100'
+      className='bg-white py-10 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-400'
       id='experience'
       data-testid='works'
     >

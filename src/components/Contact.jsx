@@ -45,7 +45,7 @@ const Contact = () => {
   };
   return (
     <section
-      className='bg-emerald-100 py-24 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-100'
+      className='bg-emerald-100 py-24 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-400'
       id='contact'
     >
       <h2 className='text-3xl text-slate-700 capitalize underline decoration-emerald-300 tracking-wide dark:decoration-dotted text-center font-bold dark:text-white'>

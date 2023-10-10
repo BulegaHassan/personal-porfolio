@@ -2,7 +2,7 @@ import educImg from "../assets/education.svg";
 export const Academic = ({ academic }) => {
   return (
     <section
-      className='bg-white py-0 dark:bg-slate-800 dark:text-white dark:border-l-8 dark:border-emerald-100'
+      className='bg-white py-0 dark:bg-slate-800 dark:text-white dark:border-x-8 dark:border-emerald-400'
       id='education'
       data-testid='academic'
     >
