@@ -6,7 +6,7 @@ const Contact = () => {
     name: "",
     email: "",
     message: "",
-    service: "website",
+    services: "",
   });
 
   function handleStateChange(e) {
@@ -40,7 +40,7 @@ const Contact = () => {
           email: "",
           name: "",
           message: "",
-          service: "website",
+          services: "",
         });
       });
   };
@@ -85,7 +85,7 @@ const Contact = () => {
                 id='email'
                 name='email'
                 value={mailerState.email}
-                className='bg-gray-50 border border-emerald-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-800 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-emerald-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-800 dark:focus:border-emerald-500'
+                className='bg-gray-50 border  border-emerald-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-800 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-emerald-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-800 dark:focus:border-emerald-500'
                 placeholder='name@email.com'
                 onChange={handleStateChange}
                 required
@@ -101,7 +101,7 @@ const Contact = () => {
               <select
                 id='services'
                 name='services'
-                value={mailerState.service}
+                value={mailerState.services}
                 className='bg-gray-50 border border-emerald-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-800 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-emerald-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-800 dark:focus:border-emerald-500'
                 onChange={handleStateChange}
               >
