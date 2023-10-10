@@ -1,4 +1,3 @@
-[![codecov](https://codecov.io/gh/BulegaHassan/personal-porfolio/graph/badge.svg?token=BDGZIQ988V)](https://codecov.io/gh/BulegaHassan/personal-porfolio)
 
 ## Personal Portfolio - React + Vite
 - Uses [tailwindcss](https://tailwindcss.com/) and [undraw](https://undraw.co/) for illustrations. Also has a dark mode
