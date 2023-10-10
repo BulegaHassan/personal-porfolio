@@ -40,6 +40,7 @@ const Contact = () => {
           email: "",
           name: "",
           message: "",
+          service: "website",
         });
       });
   };
@@ -66,8 +67,9 @@ const Contact = () => {
                 id='name'
                 name='name'
                 value={mailerState.name}
-                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                className='bg-gray-50 border border-emerald-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-800 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-emerald-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-800 dark:focus:border-emerald-500'
                 onChange={handleStateChange}
+                placeholder='my name'
                 required
               />
             </div>
@@ -83,7 +85,7 @@ const Contact = () => {
                 id='email'
                 name='email'
                 value={mailerState.email}
-                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                className='bg-gray-50 border border-emerald-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-800 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-emerald-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-800 dark:focus:border-emerald-500'
                 placeholder='name@email.com'
                 onChange={handleStateChange}
                 required
@@ -100,7 +102,7 @@ const Contact = () => {
                 id='services'
                 name='services'
                 value={mailerState.service}
-                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                className='bg-gray-50 border border-emerald-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-800 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-emerald-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-800 dark:focus:border-emerald-500'
                 onChange={handleStateChange}
               >
                 <option value='website'>Website</option>
@@ -121,7 +123,7 @@ const Contact = () => {
                 name='message'
                 value={mailerState.message}
                 rows='4'
-                className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                className='bg-gray-50 border border-emerald-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-800 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-emerald-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-800 dark:focus:border-emerald-500'
                 placeholder='My message is...'
                 onChange={handleStateChange}
               ></textarea>
