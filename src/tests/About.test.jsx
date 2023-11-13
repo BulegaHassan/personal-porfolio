@@ -23,9 +23,7 @@ describe("About", () => {
 
     // Assert that the paragraph with the specified text is present
     expect(
-      screen.getByText(
-        /my expertise encompasses front-end and back-end development/i
-      )
+      screen.getByText(/Proficient in front-end and back-end development/i)
     ).toBeInTheDocument();
   });
 });

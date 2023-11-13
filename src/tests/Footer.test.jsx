@@ -28,5 +28,7 @@ describe("Footer", () => {
     expect(screen.getByTestId("github-icon")).toBeInTheDocument();
     expect(screen.getByTestId("linkedin-icon")).toBeInTheDocument();
     expect(screen.getByTestId("twitter-icon")).toBeInTheDocument();
+    expect(screen.getByTestId("stackoverflow-icon")).toBeInTheDocument();
+    expect(screen.getByTestId("upwork-icon")).toBeInTheDocument();
   });
 });

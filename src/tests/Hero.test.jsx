@@ -22,7 +22,7 @@ describe("Hero", () => {
     render(<Hero />);
 
     // Assert that the subtitle with the specified text is present
-    expect(screen.getByText("Full Stack Engineer")).toBeInTheDocument();
+    expect(screen.getByText("Full Stack Developer")).toBeInTheDocument();
   });
 
   it("renders the paragraph with the correct text", () => {
@@ -30,7 +30,9 @@ describe("Hero", () => {
 
     // Assert that the paragraph with the specified text is present
     expect(
-      screen.getByText(/turning ideas into exciting and interactive reality/i)
+      screen.getByText(
+        /Building Fullstack Web Apps. Responsive, Awesome User Interface And Experience./i
+      )
     ).toBeInTheDocument();
   });
 

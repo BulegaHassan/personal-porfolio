@@ -16,8 +16,6 @@ describe("Navbar", () => {
     links.forEach((link) => {
       expect(link).toHaveAttribute("href");
     });
-
-    expect(screen.getByText("home")).toBeInTheDocument();
     expect(screen.getByText("about")).toBeInTheDocument();
     expect(screen.getByText("skills")).toBeInTheDocument();
     expect(screen.getByText("projects")).toBeInTheDocument();
