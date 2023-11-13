@@ -57,7 +57,7 @@ const Footer = () => {
             >
               <FaStackOverflow
                 className='h-4 w-4 text-slate-500 hover:text-black duration-300 '
-                data-testid='twitter-icon'
+                data-testid='stackoverflow-icon'
               />
             </a>
           </li>
@@ -68,7 +68,7 @@ const Footer = () => {
             >
               <BiLogoUpwork
                 className='h-4 w-4 text-slate-500 hover:text-black duration-300 '
-                data-testid='twitter-icon'
+                data-testid='upwork-icon'
               />
             </a>
           </li>
