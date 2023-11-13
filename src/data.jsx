@@ -1,6 +1,5 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaReact, FaCss3 } from "react-icons/fa";
-import { BsFiletypeXml } from "react-icons/bs";
 import { TbBrandNextjs, TbBrandRedux, TbSql } from "react-icons/tb";
 import {
   SiTailwindcss,
@@ -14,6 +13,7 @@ import {
   SiExpress,
   SiJavascript,
   SiTypescript,
+  SiCsharp,
   SiGithubactions,
   SiCypress,
   SiMarkdown,
@@ -22,8 +22,8 @@ import {
   SiJest,
   SiVitest,
 } from "react-icons/si";
+// import SmarterSite from "./assets/smarter-site.PNG";
 export const links = [
-  { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#projects", text: "projects" },
@@ -34,11 +34,11 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: "HTML,XML,Markdown",
+    title: "HTML,Markdown",
     icon1: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
-    icon2: <BsFiletypeXml className='h-16 w-16 text-emerald-500' />,
+    // icon2: <BsFiletypeXml className='h-16 w-16 text-emerald-500' />,
     icon3: <SiMarkdown className='h-16 w-16 text-emerald-500' />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    text: "Proficient in HTML & Markdown, robust knowledge about use of semantics in HTML5.",
     category: "markup",
   },
   {
@@ -48,16 +48,16 @@ export const skills = [
     icon2: <SiTailwindcss className='h-16 w-16 text-emerald-500' />,
     icon3: <SiBootstrap className='h-16 w-16 text-emerald-500' />,
 
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    text: "Highly skilled  CSS and its frameworks, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
     category: "styles",
   },
   {
     id: nanoid(),
-    title: "JS, TS",
+    title: "JS, TS, C#",
     icon1: <SiJavascript className='h-16 w-16 mr-3 text-emerald-500' />,
     icon2: <SiTypescript className='h-16 w-16 ml-5 text-emerald-500' />,
-    // icon3: <SiCsharp className='h-16 w-16 ml-3 text-emerald-500' />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    icon3: <SiCsharp className='h-16 w-16 ml-6 text-emerald-500' />,
+    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality. I am transitioning to TS to harness its goodies and also started learning C# and .NET",
     category: "Languages",
   },
   {
@@ -66,7 +66,7 @@ export const skills = [
     icon1: <FaReact className='h-16 w-16 text-emerald-500' />,
     icon2: <TbBrandRedux className='h-16 w-16 text-emerald-500' />,
     icon3: <TbBrandNextjs className='h-16 w-16 text-emerald-500' />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    text: "Proficiency in React with its associated technologies, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
     category: "js/react libraries",
   },
   {
@@ -75,7 +75,7 @@ export const skills = [
     icon1: <SiNodedotjs className='h-16 w-16 text-emerald-500' />,
     icon2: <SiExpress className='h-16 w-16 ml-2 text-emerald-500' />,
     icon3: <SiNpm className='h-16 w-16 ml-5 text-emerald-500' />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    text: "Well versed with nodejs and express to build restful APIs and their documentation",
     category: "js runtime/ package manager",
   },
   {
@@ -84,7 +84,7 @@ export const skills = [
     icon1: <TbSql className='h-16 w-16 text-emerald-500' />,
     icon2: <SiMongodb className='h-16 w-16 ml-2 text-emerald-500' />,
     icon3: <SiMongoose className='h-16 w-16 ml-5 text-emerald-500' />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    text: "Adept at using SQL and NoSQL databases. Using MongoDB,Mongoose, MySQL/MariaDB and learning others as project requirements like Postgres, ...others.",
     category: "database",
   },
   {
@@ -93,7 +93,7 @@ export const skills = [
     icon1: <SiGit className='h-16 w-16 text-emerald-500' />,
     icon2: <SiGithub className='h-16 w-16 ml-2 text-emerald-500' />,
     icon3: <SiAzuredevops className='h-16 w-16 ml-5 text-emerald-500' />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Github and Azure repos are my choices for repositories.",
     category: "Version Control",
   },
   {
@@ -101,7 +101,7 @@ export const skills = [
     title: "Github Actions, Azure Pipelines",
     icon1: <SiGithubactions className='h-16 w-16 text-emerald-500' />,
     icon2: <SiAzurepipelines className='h-16 w-16 ml-6 text-emerald-500' />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    text: "Automated CI/CD pipelines using GitHub Actions and Azure Pipelines. ",
     category: "CI/CD",
   },
   {
@@ -110,7 +110,7 @@ export const skills = [
     icon1: <SiJest className='h-16 w-16 text-emerald-500' />,
     icon2: <SiVitest className='h-16 w-16 ml-2 text-emerald-500' />,
     icon3: <SiCypress className='h-16 w-16 ml-5 text-emerald-500' />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    text: "Strong testing practices using Jest, Vitest, Supertest, and Cypress ensure code qualit",
     category: "testing",
   },
 ];
@@ -118,39 +118,51 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    url: "https://smarterlabs.tech/",
+    github: "https://github.com/SmarterBrains/company-site",
+    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy9zOWx6Y3l2NjVybG55cnpxMHpyaQ==/template_primary",
+    title: "Smarter Labs Site",
+    text: "Company website for an Edutech startup I work for.I only deployed  this site on firebase and currently tasked to rebuild it ",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "https://students.smarterlabs.tech",
+    github: "https://dev.azure.com/SmarterBrains/SmarterLabs",
+    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy92Y2JieGxkYzV3d2J1N3M3a3p0dA==/template_primary",
 
-    title: "second project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    title: "Smarter Labs client Dashboard",
+    text: "Collaborated with other developers to build both frontend backend and deployment(with CI/CD). Frontend uses react,redux and styled components.Backend is built with express and mongodb. Project soon moving to TS",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "https://gifts-and-more.vercel.app/",
+    github: "https://github.com/BulegaHassan/gifts-and-more-API",
+    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy95aWFxaTBmMGExMGN4b2w4YXUwdw==/template_primary",
 
-    title: "third project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    title: "Gifts and More Site",
+    text: "A client project(E commerce) which is still under development. Uses react,redux,react router,tailwind for frontend.Backend was built with node,express and mongoDB. ",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    title: "Forth project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    url: "https://quranuganda.com",
+    github: "https://github.com/BulegaHassan/Quran_Recitation_Website",
+    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy92aWZmZDBhY2FmNWJxb3JrdWRhaA==/template_primary",
+    title: "Quran Recitation Website",
+    text: "A static website built with bootstrap5, its about Quran audios for different reciters in Uganda. Currrently its not running due to expiry of hosting",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "https://http//stokesenergyafrica.com/",
+    github: "https://github.com/BulegaHassan/Engineering_website",
+    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy9vd3l4ampsdHZ3d215ZG9hOGxtZQ==/template_primary",
 
-    title: "Fifth project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    title: "Engineering Site",
+    text: "A consulting and Engineering static website built with bootsrap5. Currrently its not running due to expiry of hosting",
   },
   {
     id: nanoid(),
+    url: "#",
+    github: "#",
     img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
 
     title: "sixth project",
@@ -160,27 +172,27 @@ export const projects = [
 export const testimonials = [
   {
     id: nanoid(),
-    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
-    name: "Maria Sammy",
-    role: "Hotel Manager",
+    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpgo",
+    name: "Ashirafu Miiro",
+    role: "CEO - Smarter Labs",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos rend kdcnci ijvos jvodjd kncno hdkc jlc",
+      "A skilled developer I have collaborated with. A grat emplyee and zealous about learning and adapts promptly",
   },
   {
     id: nanoid(),
-    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg",
-    name: "Racheal Sanders",
-    role: "Chief Cook",
+    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpgp",
+    name: "David Tusuubira",
+    role: "CTO - Smarter Labs",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos rend kdcnci ijvos jvodjd kncno hdkc jlc",
+      "An integral player and skilled developer at smarter labs.",
   },
   {
     id: nanoid(),
-    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg",
-    name: "John Doe",
-    role: "Cafe chains Manager",
+    url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpgi",
+    name: "Rebecca Nambuya",
+    role: "GIfts shop owner",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos rend kdcnci ijvos jvodjd kncno hdkc jlc",
+      "Built for me classic apps - a website/e-commerce, backend and an admin for managing. Great Engineer!",
   },
 ];
 
