@@ -15,21 +15,20 @@ const About = () => {
           </h2>
 
           <p className='text-slate-500 md:text-center dark:text-slate-300 mt-8 leading-loose'>
-            I am an adept Full Stack Developer with over two years of experience
-            specializing in the MERN stack, well-versed in JavaScript and
-            TypeScript. My expertise encompasses front-end and back-end
-            development, proficiently utilizing technologies like React.js,
-            Redux, Node.js, and Express.js,tailwindcss, nextjs to create
-            responsive web applications and RESTful APIs. I excel in ensuring
-            code quality through rigorous testing practices with technologies
-            like jest,vitest,supertest,and cypress. Automated CI/CD pipelines
-            with github actions, and efficient deployment strategies using
-            firebase,flyctl,render and c-panel hosting. My passion for
-            continuous learning and problem-solving fuels my commitment to
-            delivering high-quality solutions and collaborating effectively
-            within cross-functional teams. I am eager to contribute my skills
-            and experience to new opportunities and challenges in the
-            ever-evolving field of web development.
+            Experienced Full Stack Developer with 2+ years in MERN stack,
+            specializing in JavaScript and transitioning to TypeScript.
+            Proficient in front-end and back-end development, excelling in
+            crafting responsive web applications and RESTful APIs. Skilled in
+            HTML, CSS, React.js, Node.js, and Express.js. Strong testing
+            practices using Jest, Vitest, Supertest, and Cypress ensure code
+            quality. Expertise extends to SQL and NoSQL databases, with hands-on
+            experience in implementing automated CI/CD pipelines using GitHub
+            Actions and Azure Pipelines. Efficient deployment strategies using
+            Firebase, Flyctl, Render, and cPanel hosting. Committed to
+            continuous learning and problem-solving, I am passionate about
+            delivering high-quality solutions. A collaborative team player,
+            currently expanding skills in C#, Azure DevOps, Python and cutting-edge
+            technologies.
           </p>
         </article>
       </div>
