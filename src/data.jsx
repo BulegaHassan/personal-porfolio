@@ -120,7 +120,7 @@ export const projects = [
     id: nanoid(),
     url: "https://smarterlabs.tech/",
     github: "https://github.com/SmarterBrains/company-site",
-    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy9zOWx6Y3l2NjVybG55cnpxMHpyaQ==/template_primary",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868632/portfolio-images/s9lzcyv65rlnyrzq0zri.png",
     title: "Smarter Labs Site",
     text: "Company website for an Edutech startup I work for.I only deployed  this site on firebase and currently tasked to rebuild it ",
   },
@@ -128,7 +128,7 @@ export const projects = [
     id: nanoid(),
     url: "https://students.smarterlabs.tech",
     github: "https://dev.azure.com/SmarterBrains/SmarterLabs",
-    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy92Y2JieGxkYzV3d2J1N3M3a3p0dA==/template_primary",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868631/portfolio-images/vcbbxldc5wwbu7s7kztt.png",
 
     title: "Smarter Labs client Dashboard",
     text: "Collaborated with other developers to build both frontend backend and deployment(with CI/CD). Frontend uses react,redux and styled components.Backend is built with express and mongodb. Project soon moving to TS",
@@ -137,7 +137,7 @@ export const projects = [
     id: nanoid(),
     url: "https://gifts-and-more.vercel.app/",
     github: "https://github.com/BulegaHassan/gifts-and-more-API",
-    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy95aWFxaTBmMGExMGN4b2w4YXUwdw==/template_primary",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868631/portfolio-images/yiaqi0f0a10cxol8au0w.png",
 
     title: "Gifts and More Site",
     text: "A client project(E commerce) which is still under development. Uses react,redux,react router,tailwind for frontend.Backend was built with node,express and mongoDB. ",
@@ -146,7 +146,7 @@ export const projects = [
     id: nanoid(),
     url: "https://quranuganda.com",
     github: "https://github.com/BulegaHassan/Quran_Recitation_Website",
-    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy92aWZmZDBhY2FmNWJxb3JrdWRhaA==/template_primary",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868631/portfolio-images/viffd0acaf5bqorkudah.png",
     title: "Quran Recitation Website",
     text: "A static website built with bootstrap5, its about Quran audios for different reciters in Uganda. Currrently its not running due to expiry of hosting",
   },
@@ -154,7 +154,7 @@ export const projects = [
     id: nanoid(),
     url: "https://http//stokesenergyafrica.com/",
     github: "https://github.com/BulegaHassan/Engineering_website",
-    img: "https://res-console.cloudinary.com/dshwwisys/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/cG9ydGZvbGlvLWltYWdlcy9vd3l4ampsdHZ3d215ZG9hOGxtZQ==/template_primary",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868632/portfolio-images/owyxjjltvwwmydoa8lme.png",
 
     title: "Engineering Site",
     text: "A consulting and Engineering static website built with bootsrap5. Currrently its not running due to expiry of hosting",
@@ -176,7 +176,7 @@ export const testimonials = [
     name: "Ashirafu Miiro",
     role: "CEO - Smarter Labs",
     comment:
-      "A skilled developer I have collaborated with. A grat emplyee and zealous about learning and adapts promptly",
+      "A skilled developer I have collaborated with. A great employee and zealous about learning and adapts promptly",
   },
   {
     id: nanoid(),
