@@ -8,7 +8,7 @@ const Navbar = () => {
           FullStack
           <span className='text-emerald-600'>Dev</span>
         </h2>
-        <div className='flex gap-x-3 my-3'>
+        <div className='flex flex-wrap gap-x-3 my-3'>
           {links.map((link) => {
             const { id, href, text } = link;
             return (
