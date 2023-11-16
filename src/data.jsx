@@ -128,7 +128,7 @@ export const projects = [
     id: nanoid(),
     url: "https://students.smarterlabs.tech",
     github: "https://dev.azure.com/SmarterBrains/SmarterLabs",
-    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868631/portfolio-images/vcbbxldc5wwbu7s7kztt.png",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1700118610/portfolio-images/inothx9ylk1awhmjl8zo.png",
 
     title: "Smarter Labs client Dashboard",
     text: "Collaborated with other developers to build both frontend backend and deployment(with CI/CD). Frontend uses react,redux and styled components.Backend is built with express and mongodb. Project soon moving to TS",
@@ -137,7 +137,7 @@ export const projects = [
     id: nanoid(),
     url: "https://gifts-and-more.vercel.app/",
     github: "https://github.com/BulegaHassan/gifts-and-more-API",
-    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868631/portfolio-images/yiaqi0f0a10cxol8au0w.png",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1700118677/portfolio-images/afbf92v6z9lp3orqs2cs.png",
 
     title: "Gifts and More Site",
     text: "A client project(E commerce) which is still under development. Uses react,redux,react router,tailwind for frontend.Backend was built with node,express and mongoDB. ",
@@ -163,7 +163,7 @@ export const projects = [
     id: nanoid(),
     url: "#",
     github: "#",
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1700118653/portfolio-images/ur4gmwzqlrdbjmxxhlbm.png",
 
     title: "sixth project",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
