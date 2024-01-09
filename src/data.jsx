@@ -118,11 +118,11 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    url: "https://smarterlabs.tech/",
+    url: "https://smarter-labs-site.vercel.app/",
     github: "https://github.com/SmarterBrains/company-site",
-    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1699868632/portfolio-images/s9lzcyv65rlnyrzq0zri.png",
+    img: "https://res.cloudinary.com/dshwwisys/image/upload/v1704702063/smarter-new-site_uaiyp7.png",
     title: "Smarter Labs Site",
-    text: "Company website for an Edutech startup I work for.I only deployed  this site on firebase and currently tasked to rebuild it ",
+    text: "Company website for an Edutech startup I work for.Built with react and tailwind css ",
   },
   {
     id: nanoid(),
@@ -183,8 +183,7 @@ export const testimonials = [
     url: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpgp",
     name: "David Tusuubira",
     role: "CTO - Smarter Labs",
-    comment:
-      "An integral player and skilled developer at smarter labs.",
+    comment: "An integral player and skilled developer at smarter labs.",
   },
   {
     id: nanoid(),
