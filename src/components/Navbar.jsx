@@ -2,8 +2,8 @@ import { links } from "../data";
 import Switcher from "./Switcher";
 const Navbar = () => {
   return (
-    <nav className='bg-emerald-300  sticky top-0 z-10  dark:bg-slate-950 dark:text-white dark:border-x-8 dark:border-emerald-400'>
-      <div className='mx-auto max-w-7xl  px-8 py-8 flex justify-between flex-col sm:flex-row  sm:gap-x-16 sm:items-center sm:py-8'>
+    <nav className='bg-emerald-300 sticky top-0 z-10  dark:bg-slate-950 dark:text-white dark:border-x-8 dark:border-emerald-400'>
+      <div className='mx-auto max-w-7xl p-4  flex justify-between flex-col sm:flex-row  sm:gap-x-16 sm:items-center sm:py-8'>
         <h2 className='text-3xl font-bold '>
           FullStack
           <span className='text-emerald-600'>Dev</span>
